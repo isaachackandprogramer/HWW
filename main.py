@@ -11,6 +11,6 @@ print('''
 
 um = input('1')
 
-if um == "1":
+if um == "1-":
     print('instalando')
 os.system('clear')
