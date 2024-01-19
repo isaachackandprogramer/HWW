@@ -17,7 +17,7 @@ print(' Por favor ative o modo administrador pra executar esta ferramenta.')
 print("")
 print("""\033[1;36m
 1-hacker ético
-2-
+2-security
 3-coding  \033[1;m""")
 print("")
 input1 = input(">")
