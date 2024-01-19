@@ -21,7 +21,7 @@ print("""\033[1;36m
 3-coding  \033[1;m""")
 print("")
 input1 = input(">")
-if input1 == 1:
+if input1 == '1':
     os.system('apt install nmap')
     os.system('apt install metasploit-framework')    
     os.system('apt-get install hydra-gtk')
@@ -31,9 +31,9 @@ if input1 == 1:
     os.system('apt-get install git')
 
 
-if input1 == 2:
+if input1 == '2':
     os.system('git clone https://github.com/isaachackandprogramer/SGY-TOOL-security')
 
 
-if input1 == 3:
+if input1 == '3':
    os.system('git clone https://github.com/isaachackandprogramer/SGY-TOOL-CODING')
