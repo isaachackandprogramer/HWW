@@ -23,7 +23,7 @@ print("")
 input1 = input(">")
 if input1 == '1':
     os.system('apt install nmap')
-    os.system('apt install metasploit-framework')    
+    os.system('snap install metasploit-framework')    
     os.system('apt-get install hydra-gtk')
     os.system('snap install john-the-ripper')
     os.system('apt-get install aircrack-ng')
